@@ -1,1 +1,27 @@
+# Minima theme settings
 theme: minima
+title: Your Site Title Here
+description: Your Site Description Here
+
+# Navigation links
+nav:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Projects
+    url: /projects/
+  - text: Blog
+    url: /blog/
+    
+# Social media links
+social:
+  - icon: github
+    url: https://github.com/yourusername
+  - icon: twitter
+    url: https://twitter.com/yourusername
+    
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 5
