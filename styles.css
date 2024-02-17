@@ -18,6 +18,7 @@ body {
 .content {
     text-align: left; /* align text to the left */
     padding: 20px; /* add padding for spacing */
+    margin-left: 0;
 }
 
 h1 {
