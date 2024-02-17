@@ -1,7 +1,8 @@
 body {
     background-color: #000;
     color: #0f0;
-    font-family: 'courier', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 200; /* thinner font weight */
     margin: 0;
     padding: 0;
     overflow: hidden;
