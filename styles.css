@@ -2,7 +2,7 @@ body {
     background-color: #000;
     color: rgb(70, 187, 70);
     font-family: 'Roboto Mono', monospace;
-    font-weight: 200; /* thinner font weight */
+    font-weight: 128; /* thinner font weight */
     margin: 0;
     padding: 0;
     overflow: hidden;
