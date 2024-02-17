@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    color: #0f0;
+    color: rgb(70, 187, 70);
     font-family: 'Roboto Mono', monospace;
     font-weight: 200; /* thinner font weight */
     margin: 0;
@@ -10,13 +10,14 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* align items to the start (left) */
     justify-content: center;
     height: 100vh;
 }
 
 .content {
-    text-align: center;
+    text-align: left; /* align text to the left */
+    padding: 20px; /* add padding for spacing */
 }
 
 h1 {
@@ -25,5 +26,6 @@ h1 {
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1em;
+    margin-bottom: 20px; /* add margin below the paragraph */
 }
